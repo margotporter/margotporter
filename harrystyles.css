@@ -1,0 +1,128 @@
+/*Box Model Fix*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+
+/*General Styles*/
+
+/*Makes sure content takes up whole page.*/
+html,body{
+  height: 100%;
+  }
+
+
+body{
+  background: darkslategrey;
+  color: lightslategrey;
+  font-family: 'Droid Sans', sans-serif;
+  margin=0;
+}
+.page-wrapper{
+  padding: 20px;
+}
+
+body a{
+  color: cadetblue;
+  text-decoration: none;
+}
+
+.insideheader{
+  color: white;
+}
+
+h1, h2,{
+  font-family: 'Passion One', cursive;
+}
+h3{
+  font-family: 'Poiret One', cursive;
+}
+header{
+  float: left;
+}
+
+nav{
+  float: right;
+}
+nav a{
+  padding: 12px;
+  font-size: 16px;
+
+
+}
+footer{
+  color: mistyrose;
+
+}
+/*Footer styles*/
+/* Sticky Footer - http://css-tricks.com/snippets/css/sticky-footer */
+.page-wrapper {
+  min-height: 100%;
+  margin-bottom: -55px; /* must be the same height as footer */
+}
+.page-wrapper:after {
+  content: "";
+  display: block;
+}
+footer,
+.page-wrapper:after {
+  height: 55px; /* however tall you want the footer to be */
+
+
+  }
+
+  /* CONTACT STYLES*/
+  form {
+    width: 400px;
+  }
+  input,
+  textarea {
+    border: 1px solid #808080;
+    width: 400px;
+    margin-bottom: 20px;
+  }
+  input {
+    height: 30px;
+  }
+  textarea {
+    height: 110px;
+  }
+  button {
+    background: #808080;
+    border: none;
+    padding: 15px 15px;
+    font-family: Droid Sans;
+    font-size: 14px;
+  }
+
+/*Home Page*/
+body.home{
+  background-image: url(images/city.jpg);
+  background-size: cover;
+}
+h2.home{
+  color: cadetblue;
+}
+/*About Page*/
+main{
+  overflow: auto;
+  clear: both;
+}
+img{
+  float: left;
+  /*margin: 0 50px 0 0;*/
+  margin-right: 50px;
+
+}
+blockquote{
+  text-align: right;
+  font-size: 20px
+
+}
+/*Contact Page*/
+
+
+/*Footer Styles*/
